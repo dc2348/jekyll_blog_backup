@@ -26,11 +26,7 @@ GitHub Pages가 웹호스팅하는 기본 repository 이름은 \<username\>.gith
         - ex) dc2348.github.io (dc2348은 내 ID이다.)
     - GitHub 무료 계정이면 Public을 선택한다.(무료 계정은 Private Repository에 대한 GitHub Pages 서비스를 제공하지 않는다)
     - 이전 포스팅에서 생성해 놓은 프로젝트를 사용할 것이기 때문에, README 파일, .gitignore, license 등 초기 생성 파일들은 모두 선택하지 않는다.
-![2020-01-03-createRepository-1](../_images/2020-01-03-createRepository-1.jpg)
-
-
-
-
+![2020-01-03-createRepository-1]({{site.baseurl}}/assets/images/2020-01-03-createRepository-1.jpg)
 
 <br>
 
@@ -52,6 +48,6 @@ GitHub Pages가 웹호스팅하는 기본 repository 이름은 \<username\>.gith
 
 - http://dc2348.github.io 로 접속
     - 내 도메인 접속시, 블로그가 정상 노출됨
-    ![2020-01-03-createRepository-1](../_images/2020-01-03-createRepository-2.jpg)
+    ![2020-01-03-createRepository-1]({{site.baseurl}}/assets/images/2020-01-03-createRepository-2.jpg)
 
 

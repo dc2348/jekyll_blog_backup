@@ -5,19 +5,11 @@ date:   2020-01-03 16:00:00 +0900
 categories: blog
 ---
 
-# :gem: 블로그 생성 및 운영 방법 2가지
+# :gem: jemoji 플러그인 설치
+- gem install jemoji
 
-블로그를 생성하고 운영하는 방법에는 사실 크게 2가지로 나눌 수 있다.
-1. GitHub 사이트 내에서 GitHub Pages를 이용하여 생성 / GitHub 사이트 내 문서 수정을 통한 운영
-    - 장점 : 최초 생성이 간편하다.
-    - 단점 : 수정 결과를 확인하기 위해서는 저장(커밋) 후 블로그에 직접 들어가서 확인 필요(n번의 수정 시 n번의 커밋)
-2. 로컬 환경에 Jekyll을 설치하여 프로젝트 생성 및 업로드 / 로컬 환경에서 문서 수정 후 로컬 서버 실행을 통한 테스트 후 커밋
-    - 장점 : 로컬 환경에서 문서 수정 후 로컬 서버로 블로그를 바로바로 띄워볼 수 있어 편리(n번의 수정 후 1번의 커밋)
-    - 단점 : Jekyll을 실행할 수 있는 최초 한번의 환경 셋팅이 필요
-
-
-이해하기 쉽게 적는다고 적어보았지만 처음 보는 분들은 두 개의 차이를 명확히 느끼기 어려우실 것 같다:sob:. 선택에 도움을 드리자면 개발자가 아닌분들이나 블로그가 수정되는 경우가 많이 없다면 1번 방식을 추천하고, 개발자이고 잦은 수정이 있는 경우 2번 방식을 추천한다. 그래서 우리도 2번 방식으로 진행을 할 것이다.   
-<br>
+참고
+https://rubygems.org/gems/jemoji/versions/0.11.1
 
 # :gem: Jekyll 설치하기
 
@@ -29,12 +21,12 @@ Jekyll을 로컬에 설치하고, Jekyll 프로젝트를 생성하여, GitHub �
 
 - [Windows용 루비 다운로드 페이지](https://rubyinstaller.org/downloads/)에 들어간다. 
 - Ruby+Devkit 버전을 다운로드 받아 설치한다.
-![2020-01-03-installRuby_1](../_images/2020-01-03-installRuby_1.jpg)
+    - ![2020-01-03-installRuby_1]({{site.baseurl}}/assets/images/2020-01-03-installRuby_1.jpg)
 - Ruby와 Gem이 정상적으로 설치되었는지 확인한다.
     - `ruby -v`
     - `gem -v`
     - 아래와 같이 버전이 표시되면 정상적으로 설치가 된 것이다.
-![2020-01-03-installRuby_2](../_images/2020-01-03-installRuby_2.jpg)
+        - ![2020-01-03-installRuby_2]({{site.baseurl}}/assets/images/2020-01-03-installRuby_2.jpg)
 <br>
 
 ## :ring: Jekyll 설치하기
@@ -42,7 +34,7 @@ Jekyll을 로컬에 설치하고, Jekyll 프로젝트를 생성하여, GitHub �
     - `gem install jekyll bundler`
 - Jekyll이 정상적으로 설치되었는지 확인한다.
     - `jekyll -v`
-![2020-01-03-installJekyll-1](../_images/2020-01-03-installJekyll-1.jpg)
+        - ![2020-01-03-installJekyll-1]({{site.baseurl}}/assets/images/2020-01-03-installJekyll-1.jpg)
     
 <br>
 
@@ -62,14 +54,13 @@ Jekyll을 로컬에 설치하고, Jekyll 프로젝트를 생성하여, GitHub �
     - `cd jekyll-website`
 - 로컬 서버 실행
     - `jekyll serve`
-
-- ![2020-01-03-installJekyll-2](../_images/2020-01-03-installJekyll-2.jpg)
+        - ![2020-01-03-installJekyll-2]({{site.baseurl}}/assets/images/2020-01-03-installJekyll-2.jpg)
 <br>
 
 ## :ring: 브라우저에서 블로그 확인
 - http://127.0.0.1:4000/ 로 접속
 - 블로그 정상적으로 생성됨 확인!
-![2020-01-03-installJekyll-3](../_images/2020-01-03-installJekyll-3.jpg)
+![2020-01-03-installJekyll-3]({{site.baseurl}}/assets/images/2020-01-03-installJekyll-3.jpg)
 
 
 이렇게 로컬환경에서 블로그 생성이 완료되었다. 다음 포스팅에서는 생성된 블로그 프로젝트를 GitHub에 업로드하고 GitHub Pages를 이용하여 웹호스팅하는 방법에 대해 알아볼 예정이다.
